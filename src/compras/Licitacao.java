@@ -19,17 +19,7 @@ public class Licitacao {
     double total;
     double saldo;
     
-     Licitacao(int numero, int ano,Fornecedor nome, String produto[],int quantidade[], double valor[], double total, double saldo){
-      this.numero = numero;
-      this.ano = ano;
-      this.nome = nome;
-      this.produto = produto;
-      this.quantidade = quantidade;
-      this.valor = valor;
-      this.total = total;
-      this.saldo = saldo;   
-    }
-     
+  
      private void saldo(){
 
      saldo = 0;    
