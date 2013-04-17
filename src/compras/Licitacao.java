@@ -20,16 +20,6 @@ public class Licitacao {
     double saldo;
     
   
-     private void saldo(){
-
-     saldo = 0;    
-//calcular quanto ainda resta da licitação
-         for (int i = 0; i < quantidade.length; i++) {
-             this.saldo += quantidade[i] + valor[i];
-         }
-              
-  
-    
-     }
+ 
      
 }
