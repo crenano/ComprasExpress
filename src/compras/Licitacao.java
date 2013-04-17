@@ -13,11 +13,9 @@ public class Licitacao {
     int numero;
     int ano;
     Fornecedor nome;   
-    String produto[];
-    int quantidade[];
-    double valor[];
-    double total;
-    double saldo;
+    String [] produto;
+    int [] quantidade;
+
     
   
  
